@@ -1,0 +1,51 @@
+/* TABLET */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    #main {
+        margin: 70px 40px 0;
+    }
+    .pc-nav,
+    .laptop-nav {
+        display: none;
+    }
+    #food {
+        display: block;
+        columns: 2;
+    }
+    .row {
+        width: 100%;
+        display: inline-block;
+        margin: 0 0 60px 0;
+    }
+    .row>p {
+        /* line-height: 1.4; */
+        letter-spacing: 1px;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 740px) {
+    .nav {
+        display: none;
+    }
+    #main {
+        margin: 70px 26px 0;
+    }
+    #food {
+        display: block;
+    }
+    .row {
+        width: 100%;
+        display: inline-block;
+        margin: 0 0 60px 0;
+    }
+    .row>p {
+        line-height: 1.4;
+        letter-spacing: 0.7px;
+    }
+    #more {
+        margin: 10px 0 70px 0;
+    }
+}
